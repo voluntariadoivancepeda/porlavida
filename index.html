@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>🇨🇴Me la juego por La Vida🇨🇴</title>
+  <script>
+    function redirectRandom() {
+      const urls = [
+    "https://chat.whatsapp.com/JNs6irzHiFXDGudvWwbBF5",
+    "https://chat.whatsapp.com/FqyTYCBfKWMF64nyStIeJJ",
+    "https://chat.whatsapp.com/BPyeLwRAA24HXRwmrP0LVu",
+    "https://chat.whatsapp.com/Cxf63rZJgJSEVgnkqKDA7H",
+    "https://chat.whatsapp.com/KQJgqVFpVznDFGeVq3A1u0"
+      ];
+
+      const randomIndex = Math.floor(Math.random() * urls.length);
+      window.location.href = urls[randomIndex];
+    }
+
+    // Ejecutar automáticamente al cargar la página
+    window.onload = redirectRandom;
+  </script>
+</head>
+<body>
+  <p>🇨🇴 Ivan Cepeda Presidente 🇨🇴</p>
+</body>
+</html>
